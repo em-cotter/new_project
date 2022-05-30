@@ -12,8 +12,18 @@ export default function Page (){
         </p>
         <h2>Weather App </h2>
         <span>coded in ReactJS</span>
+        <iframe
+          src="https://zingy-concha-edec1d.netlify.app/"
+          height="400"
+          width="500"
+        ></iframe>
         <h2>Dictionary</h2>
         <span>coded in ReactJS</span>
+        <iframe
+          src="https://stunning-nougat-5bb688.netlify.app/"
+          height="400"
+          width="500"
+        ></iframe>
         <div className="ContactMe">
           <span className="Contact">Contact: </span>
           <span>ecotter22@gmail.com</span>
