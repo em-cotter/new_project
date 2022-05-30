@@ -2,6 +2,10 @@ h1{
      
     
 }
+
+.row{
+  padding: 25px;
+}
 .Description{
   width: 400px;
   margin: 0 auto;
@@ -14,4 +18,22 @@ h1{
 
 .Contact{
     font-weight: bold;
+}
+
+.Weather{
+  display: block;
+ float: left;
+}
+
+.Dictionary{
+  display: block;
+  float: right;
+}
+.WeatherInfo{
+  padding-top: 100px;
+ 
+}
+
+.DictionaryInfo{
+  padding-top: 100px;
 }
