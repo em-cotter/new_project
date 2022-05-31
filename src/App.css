@@ -1,11 +1,11 @@
 
 .App {
   text-align: center;
-  
+  background-color: black;
   margin: 0 auto;
   
-  padding: 20px 0px;
-  background-color: ;
+  padding: 0px ;
+ 
   border-radius: 6px;
   
 }

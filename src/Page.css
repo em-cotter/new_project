@@ -1,13 +1,14 @@
 h1{
  padding: 20px;    
-    background-color: #385170;
+    background-color: black;
     color: white;
-    margin: 0;
+    margin-bottom: 300px;
 }
 
 img{
   padding-bottom: 10px;
   border-radius: 6px;
+  
   
  
 }
@@ -16,8 +17,12 @@ p{
   padding-bottom: 30px;
   color: white;
 }
+
 .photoBlock{
-  background-color: #385170;
+  background-color: black;
+  margin-top: 0;
+  
+  
 }
 .row{
   padding: 25px;
@@ -29,6 +34,9 @@ p{
 
 .ContactMe{
     padding-top: 40px;
+    background-color: black;
+   color: white;
+   padding-bottom: 25px;
    
 }
 
@@ -56,10 +64,15 @@ p{
 .First{
   border: 2px solid white;
   border-radius: 6px;
-  background-color: #EEF8F4;
+  background-color: black;
+  color: white;
+ 
+ 
 }
 .Second{
   border: 2px solid white;
   border-radius: 6px;
-  background-color: EEF8F4;
+  background-color: black;
+  color: white;
+  
 }

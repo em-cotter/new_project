@@ -5,7 +5,6 @@ export default function Page (){
     return (
       <div>
         <h1>EMMA COTTER</h1>
-
         <div className="photoBlock">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/827/original/IMG_8833.jpg?1653981590"
@@ -26,6 +25,7 @@ export default function Page (){
               height="500"
               width="500"
               frameBorder="0"
+              title="WeatherApp"
             >
               Sorry
             </iframe>
@@ -48,6 +48,7 @@ export default function Page (){
               height="500"
               width="500"
               frameBorder="0"
+              title="Dictionary"
             >
               Sorry
             </iframe>
