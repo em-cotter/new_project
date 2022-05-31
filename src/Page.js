@@ -1,5 +1,7 @@
 import React from "react";
+import Dictionary from "./Dictionary";
 import './Page.css'
+
 
 export default function Page (){
     return (
@@ -22,7 +24,7 @@ export default function Page (){
             <iframe
               className="Weather"
               src="https://zingy-concha-edec1d.netlify.app/"
-              height="500"
+              height="620"
               width="500"
               frameBorder="0"
               title="WeatherApp"
@@ -36,24 +38,8 @@ export default function Page (){
           </div>
         </div>
 
-        <div className="row Second">
-          <div className="col DictionaryInfo">
-            <h2>Dictionary</h2>
-            <span>coded in ReactJS</span>
-          </div>
-          <div className="col">
-            <iframe
-              className="Dictionary"
-              src="https://stunning-nougat-5bb688.netlify.app/"
-              height="500"
-              width="500"
-              frameBorder="0"
-              title="Dictionary"
-            >
-              Sorry
-            </iframe>
-          </div>
-        </div>
+       <Dictionary />
+        
         <div className="ContactMe">
           <span className="Contact">Contact: </span>
           <span>ecotter22@gmail.com</span>

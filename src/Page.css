@@ -17,6 +17,9 @@ p{
   padding-bottom: 30px;
   color: white;
 }
+iframe{
+  border-radius: 6px;
+}
 
 .photoBlock{
   background-color: black;
