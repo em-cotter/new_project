@@ -5,13 +5,20 @@ export default function Page (){
     return (
       <div>
         <h1>EMMA COTTER</h1>
-        <br />
-        <br />
-        <p className="Description">
-          Hi, nice to meet you. These are the projects I have worked on in the
-          past...
-        </p>
-        <div className="row">
+
+        <div className="photoBlock">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/827/original/IMG_8833.jpg?1653981590"
+            alt="Me Coding"
+            height="300px"
+            width="300px"
+          />
+          <p className="Description">
+            Hi, nice to meet you. These are the projects I have worked on in the
+            past...
+          </p>
+        </div>
+        <div className="row First">
           <div className="col">
             <iframe
               className="Weather"
@@ -28,8 +35,8 @@ export default function Page (){
             <span>coded in ReactJS</span>
           </div>
         </div>
-       
-        <div className="row ">
+
+        <div className="row Second">
           <div className="col DictionaryInfo">
             <h2>Dictionary</h2>
             <span>coded in ReactJS</span>

@@ -1,8 +1,24 @@
 h1{
-     
-    
+ padding: 20px;    
+    background-color: #385170;
+    color: white;
+    margin: 0;
 }
 
+img{
+  padding-bottom: 10px;
+  border-radius: 6px;
+  
+ 
+}
+
+p{
+  padding-bottom: 30px;
+  color: white;
+}
+.photoBlock{
+  background-color: #385170;
+}
 .row{
   padding: 25px;
 }
@@ -36,4 +52,14 @@ h1{
 
 .DictionaryInfo{
   padding-top: 100px;
+}
+.First{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #EEF8F4;
+}
+.Second{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: EEF8F4;
 }
