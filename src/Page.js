@@ -18,6 +18,8 @@ export default function Page (){
             Hi, nice to meet you. These are the projects I have worked on in the
             past...
           </p>
+          <hr />
+          
         </div>
         <div className="row First">
           <div className="col">
@@ -37,9 +39,9 @@ export default function Page (){
             <span>coded in ReactJS</span>
           </div>
         </div>
-
-       <Dictionary />
-        
+        <hr />
+        <Dictionary />
+        <hr />
         <div className="ContactMe">
           <span className="Contact">Contact: </span>
           <span>ecotter22@gmail.com</span>

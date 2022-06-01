@@ -20,6 +20,10 @@ iframe{
   border-radius: 6px;
 }
 
+hr{
+  line-height: 1.5;
+}
+
 .photoBlock{
   background-color: black;
   margin-top: 0;
@@ -64,7 +68,7 @@ iframe{
   padding-top: 100px;
 }
 .First{
-  border: 2px solid white;
+  
   border-radius: 6px;
   background-color: black;
   color: white;
@@ -72,7 +76,7 @@ iframe{
  
 }
 .Second{
-  border: 2px solid white;
+  
   border-radius: 6px;
   background-color: black;
   color: white;
