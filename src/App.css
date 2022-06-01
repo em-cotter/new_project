@@ -13,3 +13,21 @@
   border-radius: 6px;
  max-width: 900px;
 }
+
+@media all and (min-width:400px){
+  .App {
+  
+  background-color: black;
+  min-width: 400px;
+  max-width: 768px;
+  
+}
+  .Inside{
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding: 0px ;
+  border-radius: 6px;
+ 
+  }
+}

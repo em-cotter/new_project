@@ -21,7 +21,7 @@ iframe{
 }
 
 hr{
-  line-height: 1.5;
+  
 }
 
 .photoBlock{
@@ -80,5 +80,33 @@ hr{
   border-radius: 6px;
   background-color: black;
   color: white;
+  
+}
+
+@media  all and (min-width: 400px) and (max-width:768px){
+
+  img{
+    height:200px;
+    width: 200px;
+  }
+  iframe{
+    height:450px;
+    width:397px;
+    
+  }
+  .First{
+    max-width: 100%;
+  }
+  .Second{
+    max-width: 100%;
+  }
+  .Weather{
+    float:unset;
+    position: relative;
+    right: 10px;
+  }
+  .Dictionary{
+    float: unset;
+  }
   
 }
