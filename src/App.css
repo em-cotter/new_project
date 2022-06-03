@@ -31,3 +31,20 @@
  
   }
 }
+
+media all and (min-width:700px){
+  .App {
+  
+  background-color: black;
+  
+}
+
+.Inside{
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding: 0px ;
+  border-radius: 6px;
+ max-width: 900px;
+}
+}

@@ -102,6 +102,43 @@ hr{
   }
   .Weather{
     float:unset;
+    margin: 0 auto;
+   
+    
+  }
+  .Dictionary{
+    float: unset;
+    margin: 0 auto;
+  
+  }
+  .DictionaryInfo{
+    padding-top:20px
+  }
+  .WeatherInfo{
+    padding-top: 20px
+  }
+  
+}
+
+@media  all and (min-width: 700px) {
+
+  img{
+    height:300px;
+    width: 300px;
+  }
+  iframe{
+    height:450px;
+    width: 500px;;
+    
+  }
+  .First{
+    max-width: 100%;
+  }
+  .Second{
+    max-width: 100%;
+  }
+  .Weather{
+    float:unset;
     position: relative;
     right: 10px;
   }
