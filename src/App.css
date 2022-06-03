@@ -1,8 +1,7 @@
 
 .App {
   
-  background-color: black;
-  
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
 }
 
 .Inside{
@@ -12,12 +11,14 @@
   padding: 0px ;
   border-radius: 6px;
  max-width: 900px;
+ font-family: 'Kdam Thmor Pro', sans-serif;
+ 
 }
 
 @media all and (min-width:400px){
   .App {
   
-  background-color: black;
+  background: black;
   min-width: 400px;
   max-width: 100%;
   
@@ -25,24 +26,25 @@
   .Inside{
   text-align: center;
   margin: 0 auto;
-  color: white;
+  
   padding: 0px ;
   border-radius: 6px;
  
   }
 }
 
-media all and (min-width:700px){
+@media all and (min-width:700px){
   .App {
   
-  background-color: black;
-  
+background: linear-gradient(177deg, rgb(3, 3, 3) 0%, rgb(83, 6, 20) 54%, rgb(11, 10, 10) 100%);
+background: linear-gradient(177deg, rgb(7, 7, 7) 6%, rgb(13, 60, 5) 54%, rgb(11, 10, 10) 100%);
+background: linear-gradient(177deg, rgb(7, 7, 7) 6%, rgb(42, 102, 131) 54%, rgb(11, 10, 10) 100%);
 }
 
 .Inside{
   text-align: center;
   margin: 0 auto;
-  color: white;
+ 
   padding: 0px ;
   border-radius: 6px;
  max-width: 900px;

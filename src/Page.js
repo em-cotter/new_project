@@ -7,6 +7,7 @@ export default function Page (){
     return (
       <div>
         <h1>EMMA COTTER</h1>
+        <hr/>
         <div className="photoBlock">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/827/original/IMG_8833.jpg?1653981590"
@@ -18,9 +19,10 @@ export default function Page (){
             Hi, nice to meet you. These are the projects I have worked on in the
             past...
           </p>
-          <hr />
+          
           
         </div>
+        <hr/>
         <div className="row First">
           <div className="col">
             <iframe

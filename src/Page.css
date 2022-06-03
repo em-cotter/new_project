@@ -1,13 +1,17 @@
 h1{
  padding: 20px;    
-    background-color: black;
-    color: white;
+     background-color: black;
+    color: white !important;
+    font-size: 60px !important;
+    border-radius: 6px;
+   
+  
 }
 
 img{
   padding-bottom: 10px;
   border-radius: 6px;
-  
+  padding-top: 20px;
   
  
 }
@@ -15,18 +19,16 @@ img{
 p{
   padding-bottom: 30px;
   color: white;
+  
 }
 iframe{
   border-radius: 6px;
 }
 
-hr{
-  
-}
 
 .photoBlock{
   background-color: black;
-  margin-top: 0;
+  border-radius: 6px ;
   
   
 }
@@ -43,16 +45,20 @@ hr{
     background-color: black;
    color: white;
    padding-bottom: 25px;
+   border-radius: 6px;
+   margin:0 auto;
    
 }
 
 .Contact{
     font-weight: bold;
+    
 }
 
 .Weather{
   display: block;
  float: left;
+
 }
 
 .Dictionary{
@@ -72,6 +78,7 @@ hr{
   border-radius: 6px;
   background-color: black;
   color: white;
+  
  
  
 }
@@ -84,22 +91,17 @@ hr{
 }
 
 @media  all and (min-width: 400px) {
-
+  
   img{
     height:200px;
     width: 200px;
   }
   iframe{
-    height:450px;
+    height: 440px;
     width: 390px;;
     
   }
-  .First{
-    max-width: 100%;
-  }
-  .Second{
-    max-width: 100%;
-  }
+  
   .Weather{
     float:unset;
     margin: 0 auto;
@@ -120,22 +122,24 @@ hr{
   
 }
 
-@media  all and (min-width: 700px) {
-
+@media  all and (min-width: 650px) {
+  
   img{
     height:300px;
     width: 300px;
   }
   iframe{
-    height:450px;
+    height:620px;
     width: 500px;;
     
   }
   .First{
-    max-width: 100%;
+    max-width: 900px;
+    margin: 0 auto !important;
   }
   .Second{
-    max-width: 100%;
+    max-width: 900px; 
+    margin: 0 auto !important;
   }
   .Weather{
     float:unset;
